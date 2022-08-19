@@ -187,6 +187,14 @@
 
         <main class="py-4">
             @yield('content')
+            <footer class="bg-dark text-center text-lg-start">
+                <!-- Copyright -->
+                <div class="text-center p-3" style="color: white;">
+                  © 2022 Copyright:
+                  <a class="text-light" href="http://field-view.herokuapp.com/">field-view.herokuapp.com</a>
+                </div>
+                <!-- Copyright -->
+              </footer>
         </main>
     </div>
 </body>
