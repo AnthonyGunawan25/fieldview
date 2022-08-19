@@ -187,11 +187,13 @@
 
         <main class="py-4">
             @yield('content')
-            <footer class="bg-dark text-center text-lg-start">
+            <div class="container">
+            <footer class="bg-dark text-center text-lg-start mt-5">
                 <!-- Copyright -->
-                <div class="text-center p-3" style="color: white;">
-                  © 2022 Copyright:
-                  <a class="text-light" href="http://field-view.herokuapp.com/">field-view.herokuapp.com</a>
+                    <div class="text-center p-3" style="color: white;">
+                        © 2022 Copyright:
+                        <a class="text-light" href="http://field-view.herokuapp.com/">field-view.herokuapp.com</a>
+                    </div>
                 </div>
                 <!-- Copyright -->
               </footer>
